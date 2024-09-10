@@ -58,7 +58,7 @@ return {
           ellipsis_char = "...",
         }),
         expandable_indicator = false,
-        fields = { 'abbr', 'kind', 'menu' }
+        fields = { "abbr", "kind", "menu" },
       },
     })
   end,
