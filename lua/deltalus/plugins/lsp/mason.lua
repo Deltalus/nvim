@@ -31,6 +31,7 @@ return {
         "cssls",
         "tailwindcss",
         "lua_ls",
+        "omnisharp",
       },
     })
 
