@@ -110,9 +110,13 @@ return {
           enable_import_completion = true,
           organize_imports_on_format = true,
           enable_roslyn_analyzers = true,
+          enable_ms_build_load_projects_on_demand = false,
+          enable_decompilation_support = true,
+          analyze_open_documents_only = false,
           root_dir = function()
             return vim.loop.cwd() -- current working directory
           end,
+          filetypes = { "cs", "vb", "csproj", "sln", "slnx", "props", "csx", "targets" },
         })
       end,
     })
